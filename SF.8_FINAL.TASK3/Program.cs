@@ -24,7 +24,7 @@ namespace SF._8_FINAL.TASK3
                         Console.WriteLine("Исходный размер папки {0} составляет {1} байт", path, size_old);
                         int allcnt = DelDirFile(di);
                         long size_new = DirSize(di);
-                        Console.WriteLine("Удалено каталогов и папок {0} шт., освобождено {1} байт", allcnt, size_old - size_new);
+                        Console.WriteLine("Удалено файлов и папок {0} шт., освобождено {1} байт", allcnt, size_old - size_new);
                         Console.WriteLine("Текущий размер папки {0} составляет {1} байт", path, size_new);
                     }
                     else
